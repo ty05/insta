@@ -1,0 +1,36 @@
+{
+    "type": {
+        "client_type": "CONFIDENTIAL",
+        "authority_type": "B2C",
+        "framework": "DJANGO"
+        },
+    "client": {
+        "client_id": "3662ac79-97af-4eb7-bac3-c6105e9bed7a",
+        "client_credential": "M6a8Q~0i~PWdoa.gBDJx_K2QD3F7uiSOb1kzeasq",
+        // "authority": "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com"
+        "authority":  "https://testtaka.b2clogin.com/testtaka.onmicrosoft.com"
+        },
+    "b2c": {
+        "susi": "/b2c_1_susi",
+        "profile": "/b2c_1_edit_profile",
+        "password": "/b2c_1_reset"
+        },
+    "auth_request": {
+        "redirect_uri": null,
+        "scopes": [],
+        "response_type": "code"
+        },
+    "django": {
+        "id_web_configs": "MS_ID_WEB_CONFIGS",
+        "auth_endpoints": {
+            "prefix": "auth",
+            "sign_in": "sign_in",
+            "edit_profile": "edit_profile",
+            "redirect": "redirect",
+            "sign_out": "sign_out",
+            "post_sign_out": "post_sign_out"
+        }
+    },
+    "flask": null
+    }
+        
